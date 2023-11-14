@@ -11,23 +11,23 @@ import org.openqa.selenium.support.PageFactory;
 
 import udemyautomation.AbstractComponents.AbstractComponenet;
 
-public class ProductCatalogue extends AbstractComponenet {
+public class ProductCatalog extends AbstractComponenet {
 	WebDriver driver;
 
-	public ProductCatalogue(WebDriver driver) {
+	public ProductCatalog(WebDriver driver) {
 		super(driver);
 		this.driver = driver;
 		PageFactory.initElements(driver, this); // method which defines WebDriver for a Page factoring (e.g
 												// :"@FindBy,...").
 	}
 
-	@FindBy(css = ".card")
+	@FindBy(xpath = "//div[@class='card']")
 	List<WebElement> tiles;
 	
 	@FindBy(tagName="ngx-spinner")  // locator for spinner loader
 	WebElement spinner;
 
-	By tilesBy = By.cssSelector(".card"); // create a locator to send into ExplicitWait method in the
+	By tilesBy = By.xpath("//div[@class='card']//b"); // create a locator to send into ExplicitWait method in the
 													// AbstractComponent class
 	By addToCartBtn = By.cssSelector("button[class='btn w-10 rounded']"); // locator for Ad To the cart button
 
@@ -41,12 +41,13 @@ public class ProductCatalogue extends AbstractComponenet {
 	}
 
 	public WebElement getProductByName(String productName) {
-		return tiles.stream()
-				.filter(x -> x.findElement(By.tagName("b")).getText().equalsIgnoreCase(productName)).findFirst()
-				.orElse(null);
+	    WebElement tile =	getProductsList().stream().filter(product->
+		product.findElement(By.cssSelector("b")).getText().equalsIgnoreCase(productName)).findFirst().orElse(null);
+		return tile;
 	}
 	
-	public void addProductToCart(WebElement tile) {
+	public void addProductToCart(String productName) {
+		WebElement tile = getProductByName(productName);
 		tile.findElement(addToCartBtn).click();
 		waitForElementToAppear(messageSuccess);
 		waitForElementToDisappear(spinner);
