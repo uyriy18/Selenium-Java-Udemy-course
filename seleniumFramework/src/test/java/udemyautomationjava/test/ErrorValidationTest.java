@@ -11,14 +11,14 @@ import udemyautomationjava.pageobjects.ProductCatalog;
 
 public class ErrorValidationTest extends BaseTest {
 
-	@Test
+	@Test(groups = {"ErrorHandling"})
 	public void LoginErrorValidation() throws IOException {
 		ProductCatalog productCatalog = landingPage.loginApplication("invalidEmail@as.co", "123123"); 
 		Assert.assertEquals(landingPage.getErrorMessage(), "Incorrect email or password.");
 
 	}
 
-	@Test
+	@Test(groups = {"ErrorHandling"})
 	public void productErrorValidation() {
 		String productName = "zara coat 3";
 		ProductCatalog productCatalog = landingPage.loginApplication("test1@as.co", "Test1234");

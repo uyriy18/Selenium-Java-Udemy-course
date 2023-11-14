@@ -1,37 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-14T12:09:10 EET" name="Default suite" finished-at="2023-11-14T12:09:23 EET" duration-ms="13285">
+  <suite started-at="2023-11-14T13:47:07 EET" name="Suite" finished-at="2023-11-14T13:47:23 EET" duration-ms="15161">
     <groups>
     </groups>
-    <test started-at="2023-11-14T12:09:10 EET" name="Default test" finished-at="2023-11-14T12:09:23 EET" duration-ms="13285">
+    <test started-at="2023-11-14T13:47:07 EET" name="Submit Order Test" finished-at="2023-11-14T13:47:21 EET" duration-ms="14058">
       <class name="udemyautomationjava.test.SubmitOrderTest">
-        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@63a12c68]" started-at="2023-11-14T12:09:10 EET" name="lunchApplication" finished-at="2023-11-14T12:09:14 EET" duration-ms="3911" status="PASS">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@63a12c68]" started-at="2023-11-14T13:47:07 EET" name="lunchApplication" finished-at="2023-11-14T13:47:12 EET" duration-ms="5138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchApplication -->
-        <test-method signature="submitOrder()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@63a12c68]" started-at="2023-11-14T12:09:14 EET" name="submitOrder" finished-at="2023-11-14T12:09:17 EET" duration-ms="3562" status="PASS">
+        <test-method signature="submitOrder()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@63a12c68]" started-at="2023-11-14T13:47:12 EET" name="submitOrder" finished-at="2023-11-14T13:47:17 EET" duration-ms="4032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@63a12c68]" started-at="2023-11-14T12:09:17 EET" name="closeApplication" finished-at="2023-11-14T12:09:17 EET" duration-ms="102" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@63a12c68]" started-at="2023-11-14T13:47:17 EET" name="closeApplication" finished-at="2023-11-14T13:47:17 EET" duration-ms="100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@63a12c68]" started-at="2023-11-14T12:09:17 EET" name="lunchApplication" finished-at="2023-11-14T12:09:22 EET" duration-ms="4698" status="PASS">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@63a12c68]" started-at="2023-11-14T13:47:17 EET" name="lunchApplication" finished-at="2023-11-14T13:47:20 EET" duration-ms="3712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchApplication -->
-        <test-method signature="orderInOrderGistory()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@63a12c68]" started-at="2023-11-14T12:09:22 EET" name="orderInOrderGistory" finished-at="2023-11-14T12:09:23 EET" depends-on-methods="udemyautomationjava.test.SubmitOrderTest.submitOrder" duration-ms="888" status="PASS">
+        <test-method signature="orderInOrderGistory()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@63a12c68]" started-at="2023-11-14T13:47:20 EET" name="orderInOrderGistory" finished-at="2023-11-14T13:47:21 EET" depends-on-methods="udemyautomationjava.test.SubmitOrderTest.submitOrder" duration-ms="948" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderInOrderGistory -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@63a12c68]" started-at="2023-11-14T12:09:23 EET" name="closeApplication" finished-at="2023-11-14T12:09:23 EET" duration-ms="98" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@63a12c68]" started-at="2023-11-14T13:47:21 EET" name="closeApplication" finished-at="2023-11-14T13:47:21 EET" duration-ms="103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
       </class> <!-- udemyautomationjava.test.SubmitOrderTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2023-11-14T13:47:07 EET" name="Error Validation Test" finished-at="2023-11-14T13:47:23 EET" duration-ms="15161">
+      <class name="udemyautomationjava.test.ErrorValidationTest">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:udemyautomationjava.test.ErrorValidationTest@1b11171f]" started-at="2023-11-14T13:47:07 EET" name="lunchApplication" finished-at="2023-11-14T13:47:13 EET" duration-ms="5924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:udemyautomationjava.test.ErrorValidationTest@1b11171f]" started-at="2023-11-14T13:47:13 EET" name="LoginErrorValidation" finished-at="2023-11-14T13:47:14 EET" duration-ms="1046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:udemyautomationjava.test.ErrorValidationTest@1b11171f]" started-at="2023-11-14T13:47:14 EET" name="closeApplication" finished-at="2023-11-14T13:47:14 EET" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:udemyautomationjava.test.ErrorValidationTest@1b11171f]" started-at="2023-11-14T13:47:14 EET" name="lunchApplication" finished-at="2023-11-14T13:47:20 EET" duration-ms="5140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:udemyautomationjava.test.ErrorValidationTest@1b11171f]" started-at="2023-11-14T13:47:20 EET" name="productErrorValidation" finished-at="2023-11-14T13:47:22 EET" duration-ms="2806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:udemyautomationjava.test.ErrorValidationTest@1b11171f]" started-at="2023-11-14T13:47:22 EET" name="closeApplication" finished-at="2023-11-14T13:47:23 EET" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- udemyautomationjava.test.ErrorValidationTest -->
+    </test> <!-- Error Validation Test -->
+  </suite> <!-- Suite -->
 </testng-results>
