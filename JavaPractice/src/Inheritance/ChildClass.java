@@ -19,9 +19,9 @@ public class ChildClass extends ParrentClass {
 			System.out.println(par.increment());
 			System.out.println(par.decrement());
 			System.out.println(par.multiplyBy2());
-			System.out.println(par.multiplyBy3());Схоже що 
+			System.out.println(par.multiplyBy3());
 
-		}
+		};
 
 
 }

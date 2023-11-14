@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-14T12:09:10 EET" name="Default suite" finished-at="2023-11-14T12:09:23 EET" duration-ms="13285">
+    <groups>
+    </groups>
+    <test started-at="2023-11-14T12:09:10 EET" name="Default test" finished-at="2023-11-14T12:09:23 EET" duration-ms="13285">
+      <class name="udemyautomationjava.test.SubmitOrderTest">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@63a12c68]" started-at="2023-11-14T12:09:10 EET" name="lunchApplication" finished-at="2023-11-14T12:09:14 EET" duration-ms="3911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="submitOrder()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@63a12c68]" started-at="2023-11-14T12:09:14 EET" name="submitOrder" finished-at="2023-11-14T12:09:17 EET" duration-ms="3562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@63a12c68]" started-at="2023-11-14T12:09:17 EET" name="closeApplication" finished-at="2023-11-14T12:09:17 EET" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@63a12c68]" started-at="2023-11-14T12:09:17 EET" name="lunchApplication" finished-at="2023-11-14T12:09:22 EET" duration-ms="4698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="orderInOrderGistory()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@63a12c68]" started-at="2023-11-14T12:09:22 EET" name="orderInOrderGistory" finished-at="2023-11-14T12:09:23 EET" depends-on-methods="udemyautomationjava.test.SubmitOrderTest.submitOrder" duration-ms="888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderInOrderGistory -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@63a12c68]" started-at="2023-11-14T12:09:23 EET" name="closeApplication" finished-at="2023-11-14T12:09:23 EET" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- udemyautomationjava.test.SubmitOrderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
