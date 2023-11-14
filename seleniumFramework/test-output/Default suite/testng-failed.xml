@@ -8,7 +8,7 @@
           <include name="lunchApplication"/>
           <include name="closeApplication"/>
           <include name="submitOrder"/>
-          <include name="orderInOrderGistory"/>
+          <include name="orderInOrderHistory" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- udemyautomationjava.test.SubmitOrderTest -->
     </classes>

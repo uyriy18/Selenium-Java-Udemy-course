@@ -1,16 +1,24 @@
 package udemyautomationjava.TestComponents;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Properties;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 import udemyautomationjava.pageobjects.LandingPage;
 
@@ -38,7 +46,7 @@ public class BaseTest {
 
 	}
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	public LandingPage lunchApplication() throws IOException {
 
 		driver = initializeDriver();
@@ -46,9 +54,16 @@ public class BaseTest {
 		landingPage.goTo();                                 // open site URL
 		return landingPage;
 	}
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public void closeApplication() {
 		driver.close();
 	}
+	public List<HashMap<String, String>> getJsonDataToMap(String fileSRC) throws IOException {
+		String jsonContent = FileUtils.readFileToString(new File(fileSRC),StandardCharsets.UTF_8);
+		ObjectMapper mapper = new ObjectMapper();
+		List<HashMap<String,String>> data = mapper.readValue(jsonContent, new TypeReference<List<HashMap<String,String>>>(){			
+		});
+		return data;
+		}
 
 }
