@@ -13,8 +13,8 @@ public class ErrorValidationTest extends BaseTest {
 
 	@Test(groups = {"ErrorHandling"})
 	public void LoginErrorValidation() throws IOException {
-		ProductCatalog productCatalog = landingPage.loginApplication("invalidEmail@as.co", "123123"); 
-		Assert.assertEquals(landingPage.getErrorMessage(), "Incorrect email or password.");
+		ProductCatalog productCatalog = landingPage.loginApplication("invalid@as.co", "Test1234"); 
+		Assert.assertEquals(landingPage.getErrorMessage(), "Incorrect email or password.!");
 
 	}
 
