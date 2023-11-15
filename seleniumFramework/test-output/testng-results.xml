@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-14T17:33:12 EET" name="Default suite" finished-at="2023-11-14T17:33:38 EET" duration-ms="25700">
+  <suite started-at="2023-11-15T17:42:36 EET" name="Suite" finished-at="2023-11-15T17:43:15 EET" duration-ms="39587">
     <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.LoginErrorValidation()[pri:0, instance:udemyautomationjava.test.ErrorValidationTest@73194df]" name="LoginErrorValidation" class="udemyautomationjava.test.ErrorValidationTest"/>
+        <method signature="ErrorValidationTest.productErrorValidation()[pri:0, instance:udemyautomationjava.test.ErrorValidationTest@73194df]" name="productErrorValidation" class="udemyautomationjava.test.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
       <group name="PlaceOrder">
-        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@23c30a20]" name="submitOrder" class="udemyautomationjava.test.SubmitOrderTest"/>
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@512baff6]" name="submitOrder" class="udemyautomationjava.test.SubmitOrderTest"/>
       </group> <!-- PlaceOrder -->
     </groups>
-    <test started-at="2023-11-14T17:33:12 EET" name="Default test" finished-at="2023-11-14T17:33:38 EET" duration-ms="25700">
+    <test started-at="2023-11-15T17:42:36 EET" name="Submit Order Test" finished-at="2023-11-15T17:43:03 EET" duration-ms="27181">
       <class name="udemyautomationjava.test.SubmitOrderTest">
-        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@23c30a20]" started-at="2023-11-14T17:33:12 EET" name="lunchApplication" finished-at="2023-11-14T17:33:17 EET" duration-ms="5299" status="PASS">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@512baff6]" started-at="2023-11-15T17:42:36 EET" name="lunchApplication" finished-at="2023-11-15T17:42:41 EET" duration-ms="5358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@23c30a20]" started-at="2023-11-14T17:33:17 EET" name="submitOrder" data-provider="getData" finished-at="2023-11-14T17:33:21 EET" duration-ms="3722" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@512baff6]" started-at="2023-11-15T17:42:41 EET" name="submitOrder" data-provider="getData" finished-at="2023-11-15T17:42:45 EET" duration-ms="3776" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -25,15 +29,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@23c30a20]" started-at="2023-11-14T17:33:21 EET" name="closeApplication" finished-at="2023-11-14T17:33:21 EET" duration-ms="114" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@512baff6]" started-at="2023-11-15T17:42:45 EET" name="closeApplication" finished-at="2023-11-15T17:42:45 EET" duration-ms="100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@23c30a20]" started-at="2023-11-14T17:33:21 EET" name="lunchApplication" finished-at="2023-11-14T17:33:25 EET" duration-ms="3463" status="PASS">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@512baff6]" started-at="2023-11-15T17:42:45 EET" name="lunchApplication" finished-at="2023-11-15T17:42:50 EET" duration-ms="5013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@23c30a20]" started-at="2023-11-14T17:33:25 EET" name="submitOrder" data-provider="getData" finished-at="2023-11-14T17:33:28 EET" duration-ms="3624" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@512baff6]" started-at="2023-11-15T17:42:50 EET" name="submitOrder" data-provider="getData" finished-at="2023-11-15T17:42:54 EET" duration-ms="3648" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,15 +48,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@23c30a20]" started-at="2023-11-14T17:33:28 EET" name="closeApplication" finished-at="2023-11-14T17:33:28 EET" duration-ms="101" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@512baff6]" started-at="2023-11-15T17:42:54 EET" name="closeApplication" finished-at="2023-11-15T17:42:54 EET" duration-ms="91" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@23c30a20]" started-at="2023-11-14T17:33:28 EET" name="lunchApplication" finished-at="2023-11-14T17:33:32 EET" duration-ms="3561" status="PASS">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@512baff6]" started-at="2023-11-15T17:42:54 EET" name="lunchApplication" finished-at="2023-11-15T17:42:57 EET" duration-ms="3479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchApplication -->
-        <test-method signature="orderInOrderHistory(java.util.HashMap)[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@23c30a20]" started-at="2023-11-14T17:33:32 EET" name="orderInOrderHistory" data-provider="getData" finished-at="2023-11-14T17:33:33 EET" depends-on-methods="udemyautomationjava.test.SubmitOrderTest.submitOrder" duration-ms="882" status="PASS">
+        <test-method signature="orderInOrderHistory(java.util.HashMap)[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@512baff6]" started-at="2023-11-15T17:42:57 EET" name="orderInOrderHistory" data-provider="getData" finished-at="2023-11-15T17:42:58 EET" depends-on-methods="udemyautomationjava.test.SubmitOrderTest.submitOrder" duration-ms="904" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,15 +67,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderInOrderHistory -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@23c30a20]" started-at="2023-11-14T17:33:33 EET" name="closeApplication" finished-at="2023-11-14T17:33:33 EET" duration-ms="106" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@512baff6]" started-at="2023-11-15T17:42:58 EET" name="closeApplication" finished-at="2023-11-15T17:42:58 EET" duration-ms="94" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@23c30a20]" started-at="2023-11-14T17:33:33 EET" name="lunchApplication" finished-at="2023-11-14T17:33:37 EET" duration-ms="3574" status="PASS">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@512baff6]" started-at="2023-11-15T17:42:58 EET" name="lunchApplication" finished-at="2023-11-15T17:43:02 EET" duration-ms="3500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchApplication -->
-        <test-method signature="orderInOrderHistory(java.util.HashMap)[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@23c30a20]" started-at="2023-11-14T17:33:37 EET" name="orderInOrderHistory" data-provider="getData" finished-at="2023-11-14T17:33:37 EET" depends-on-methods="udemyautomationjava.test.SubmitOrderTest.submitOrder" duration-ms="889" status="PASS">
+        <test-method signature="orderInOrderHistory(java.util.HashMap)[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@512baff6]" started-at="2023-11-15T17:43:02 EET" name="orderInOrderHistory" data-provider="getData" finished-at="2023-11-15T17:43:03 EET" depends-on-methods="udemyautomationjava.test.SubmitOrderTest.submitOrder" duration-ms="906" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -82,11 +86,83 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderInOrderHistory -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@23c30a20]" started-at="2023-11-14T17:33:37 EET" name="closeApplication" finished-at="2023-11-14T17:33:38 EET" duration-ms="100" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:udemyautomationjava.test.SubmitOrderTest@512baff6]" started-at="2023-11-15T17:43:03 EET" name="closeApplication" finished-at="2023-11-15T17:43:03 EET" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
       </class> <!-- udemyautomationjava.test.SubmitOrderTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2023-11-15T17:43:03 EET" name="Error Validation Test" finished-at="2023-11-15T17:43:15 EET" duration-ms="12045">
+      <class name="udemyautomationjava.test.ErrorValidationTest">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:udemyautomationjava.test.ErrorValidationTest@73194df]" started-at="2023-11-15T17:43:03 EET" name="lunchApplication" finished-at="2023-11-15T17:43:07 EET" duration-ms="4230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:udemyautomationjava.test.ErrorValidationTest@73194df]" started-at="2023-11-15T17:43:07 EET" name="LoginErrorValidation" finished-at="2023-11-15T17:43:08 EET" duration-ms="970" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.!] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.!] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at udemyautomationjava.test.ErrorValidationTest.LoginErrorValidation(ErrorValidationTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:udemyautomationjava.test.ErrorValidationTest@73194df]" started-at="2023-11-15T17:43:09 EET" name="closeApplication" finished-at="2023-11-15T17:43:09 EET" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:udemyautomationjava.test.ErrorValidationTest@73194df]" started-at="2023-11-15T17:43:09 EET" name="lunchApplication" finished-at="2023-11-15T17:43:12 EET" duration-ms="3519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:udemyautomationjava.test.ErrorValidationTest@73194df]" started-at="2023-11-15T17:43:12 EET" name="productErrorValidation" finished-at="2023-11-15T17:43:15 EET" duration-ms="2770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:udemyautomationjava.test.ErrorValidationTest@73194df]" started-at="2023-11-15T17:43:15 EET" name="closeApplication" finished-at="2023-11-15T17:43:15 EET" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- udemyautomationjava.test.ErrorValidationTest -->
+    </test> <!-- Error Validation Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -10,10 +10,13 @@ import java.util.List;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.io.FileHandler;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -29,8 +32,8 @@ public class BaseTest {
 	public WebDriver initializeDriver() throws IOException {
 
 		Properties prop = new Properties();
-		FileInputStream fileStream = new FileInputStream(
-				System.getProperty("user.dir") + "//src//main//java//udemyautomation//resources//GlobalData.properties");
+		FileInputStream fileStream = new FileInputStream(System.getProperty("user.dir")
+				+ "//src//main//java//udemyautomation//resources//GlobalData.properties");
 		prop.load(fileStream);
 		String browserName = prop.getProperty("browser");
 		if (browserName.equalsIgnoreCase("chrome")) {
@@ -50,20 +53,31 @@ public class BaseTest {
 	public LandingPage lunchApplication() throws IOException {
 
 		driver = initializeDriver();
-	    landingPage = new LandingPage(driver);  // send Driver to the LandingPage class
-		landingPage.goTo();                                 // open site URL
+		landingPage = new LandingPage(driver); // send Driver to the LandingPage class
+		landingPage.goTo(); // open site URL
 		return landingPage;
 	}
+
 	@AfterMethod(alwaysRun = true)
 	public void closeApplication() {
 		driver.close();
 	}
+
 	public List<HashMap<String, String>> getJsonDataToMap(String fileSRC) throws IOException {
-		String jsonContent = FileUtils.readFileToString(new File(fileSRC),StandardCharsets.UTF_8);
+		String jsonContent = FileUtils.readFileToString(new File(fileSRC), StandardCharsets.UTF_8);
 		ObjectMapper mapper = new ObjectMapper();
-		List<HashMap<String,String>> data = mapper.readValue(jsonContent, new TypeReference<List<HashMap<String,String>>>(){			
-		});
+		List<HashMap<String, String>> data = mapper.readValue(jsonContent,
+				new TypeReference<List<HashMap<String, String>>>() {
+				});
 		return data;
-		}
+	}
+
+	public String getScreenshot(String testCaseName, WebDriver driver) throws IOException {
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File source = ts.getScreenshotAs(OutputType.FILE);
+		File file = new File(System.getProperty("user.dir") + "\\reports\\" + testCaseName + ".png");
+		FileUtils.copyFile(source, file);
+		return System.getProperty("user.dir") + "\\reports\\" + testCaseName + ".png";
+	}
 
 }

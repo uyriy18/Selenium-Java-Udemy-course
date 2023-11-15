@@ -9,7 +9,6 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import rahulshettyacademy.data.DataReader;
 import udemyautomation.AbstractComponents.AbstractComponenet;
 import udemyautomationjava.TestComponents.BaseTest;
 import udemyautomationjava.pageobjects.CartPage;
