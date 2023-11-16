@@ -4,6 +4,7 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import udemyautomationjava.TestComponents.BaseTest;
+import udemyautomationjava.TestComponents.Retry;
 import udemyautomationjava.pageobjects.CartPage;
 import udemyautomationjava.pageobjects.CheckoutPage;
 import udemyautomationjava.pageobjects.ConfirmationPage;
@@ -11,7 +12,7 @@ import udemyautomationjava.pageobjects.ProductCatalog;
 
 public class ErrorValidationTest extends BaseTest {
 
-	@Test(groups = {"ErrorHandling"})
+	@Test(groups = {"ErrorHandling"},retryAnalyzer = Retry.class)
 	public void LoginErrorValidation() throws IOException {
 		ProductCatalog productCatalog = landingPage.loginApplication("invalid@as.co", "Test1234"); 
 		Assert.assertEquals(landingPage.getErrorMessage(), "Incorrect email or password.!");

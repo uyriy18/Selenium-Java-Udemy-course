@@ -35,7 +35,7 @@ public class BaseTest {
 		FileInputStream fileStream = new FileInputStream(System.getProperty("user.dir")
 				+ "//src//main//java//udemyautomation//resources//GlobalData.properties");
 		prop.load(fileStream);
-		String browserName = prop.getProperty("browser");
+		String browserName = System.getProperty("browser") != null ? System.getProperty("browser") : prop.getProperty("browser");
 		if (browserName.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();
 		} else if (browserName.equalsIgnoreCase("firefox")) {
