@@ -10,9 +10,22 @@
         <methods>
           <include name="lunchApplication"/>
           <include name="closeApplication"/>
+          <include name="productErrorValidation"/>
           <include name="LoginErrorValidation"/>
         </methods>
       </class> <!-- udemyautomationjava.test.ErrorValidationTest -->
     </classes>
   </test> <!-- Error Validation Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Submit Order Test(failed)">
+    <classes>
+      <class name="udemyautomationjava.test.SubmitOrderTest">
+        <methods>
+          <include name="lunchApplication"/>
+          <include name="closeApplication"/>
+          <include name="submitOrder"/>
+          <include name="orderInOrderHistory"/>
+        </methods>
+      </class> <!-- udemyautomationjava.test.SubmitOrderTest -->
+    </classes>
+  </test> <!-- Submit Order Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
