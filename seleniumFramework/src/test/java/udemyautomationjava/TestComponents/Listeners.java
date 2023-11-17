@@ -18,6 +18,10 @@ public class Listeners extends BaseTest implements ITestListener {
 	ExtentReports extendReport = ExtentReportsNG.getReportObject();
 	ExtentTest test;
 	ThreadLocal<ExtentTest> extentTest = new ThreadLocal();
+<<<<<<< HEAD
+=======
+	
+>>>>>>> 3a19622481c9615680e0088d97e0b8527a1f8de8
 
 	@Override
 	public void onTestStart(ITestResult result) {
