@@ -46,6 +46,9 @@ public class BaseTest {
 				driver = new ChromeDriver(options);
 				driver.manage().window().setSize(new Dimension(1440,900));
 			}
+			else {
+				driver = new ChromeDriver();
+			}
 		} else if (browserName.equalsIgnoreCase("firefox")) {
 			driver = new FirefoxDriver();
 		} else if (browserName.equalsIgnoreCase("edge")) {
