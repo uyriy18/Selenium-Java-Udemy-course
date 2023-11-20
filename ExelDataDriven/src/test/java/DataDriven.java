@@ -1,20 +1,23 @@
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Iterator;
 import org.apache.poi.ss.usermodel.Cell;
-
+import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.util.NumberToTextConverter;
+
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 
 public class DataDriven {
 
-	public static void main(String[] args) throws IOException {
+	public ArrayList<String> getData(String testcaseName) throws IOException {
 		// TODO Auto-generated method stub
 		int columnIndex = 0;
-		int rowIndex = 0;
+		ArrayList<String> array = new ArrayList<String>();
 		FileInputStream fileInput = new FileInputStream(System.getProperty("user.dir")+"//src//XMLData.xlsx");
 		XSSFWorkbook workbook = new XSSFWorkbook(fileInput);
 		int sheets = workbook.getNumberOfSheets();
@@ -34,18 +37,24 @@ public class DataDriven {
 					
 					k++;
 				};
-				System.out.println(columnIndex);
 				while(rows.hasNext()) {
 					Row r = rows.next();
-					if(r.getCell(columnIndex).getStringCellValue().equals("Purchase")){
+					if(r.getCell(columnIndex).getStringCellValue().equals(testcaseName)){
 						Iterator<Cell> cv = r.iterator();
 						while(cv.hasNext()) {
-							System.out.println(cv.next().getStringCellValue()); 
+							Cell c = cv.next();
+							if(c.getCellType() == CellType.STRING) {
+								array.add(c.getStringCellValue());
+							}
+							else {
+								array.add(NumberToTextConverter.toText(c.getNumericCellValue()));
+							}
 						}
 					}
 				}
 			}
 		}
+		return array;
 
 	}
 
