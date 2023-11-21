@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-21T17:12:50 EET" name="Default suite" finished-at="2023-11-21T17:12:54 EET" duration-ms="3799">
+    <groups>
+    </groups>
+    <test started-at="2023-11-21T17:12:50 EET" name="Default test" finished-at="2023-11-21T17:12:54 EET" duration-ms="3799">
+      <class name="GoogleTest">
+        <test-method signature="homePageCheck()[pri:0, instance:GoogleTest@5fd4f8f5]" started-at="2023-11-21T17:12:50 EET" name="homePageCheck" finished-at="2023-11-21T17:12:54 EET" duration-ms="3764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageCheck -->
+      </class> <!-- GoogleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
