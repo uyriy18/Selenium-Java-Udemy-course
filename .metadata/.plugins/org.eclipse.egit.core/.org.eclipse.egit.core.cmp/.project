@@ -8,4 +8,11 @@
 	</buildSpec>
 	<natures>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>.settings/.gitignore</name>
+			<type>1</type>
+			<location>C:/Users/y.bartash/eclipse-workspace/.gitignore</location>
+		</link>
+	</linkedResources>
 </projectDescription>
