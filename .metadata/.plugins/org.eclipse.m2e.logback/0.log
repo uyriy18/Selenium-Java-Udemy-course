@@ -216,3 +216,9 @@ org.eclipse.jdt.core.JavaModelException: module-info.java [in <default> [in src 
 2023-11-24 10:11:19,327 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\y.bartash\eclipse-workspace\SeleniumFeatures\src\main\resources
 2023-11-24 10:11:19,338 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-11-24 10:11:19,339 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\y.bartash\eclipse-workspace\SeleniumFeatures\src\test\resources
+2023-11-24 10:26:23,105 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+2023-11-24 10:26:23,175 [Worker-10: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+2023-11-24 10:26:23,775 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-24 10:26:23,775 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\y.bartash\eclipse-workspace\seleniumFramework\src\main\resources
+2023-11-24 10:26:23,778 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-24 10:26:23,778 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\y.bartash\eclipse-workspace\seleniumFramework\src\test\resources
