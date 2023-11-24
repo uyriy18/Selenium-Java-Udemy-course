@@ -22,6 +22,9 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.remote.RemoteWebDriver"/>
     <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<<<<<<< HEAD
     <fullyQualifiedTypeName name="org.openqa.selenium.MutableCapabilities"/>
     <fullyQualifiedTypeName name="java.net.URL"/>
+=======
+>>>>>>> master
 </qualifiedTypeNameHistroy>

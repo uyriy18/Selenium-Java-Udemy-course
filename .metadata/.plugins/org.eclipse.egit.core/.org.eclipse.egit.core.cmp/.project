@@ -14,5 +14,10 @@
 			<type>1</type>
 			<location>C:/Users/y.bartash/eclipse-workspace/.gitignore</location>
 		</link>
+		<link>
+			<name>.settings/.markers</name>
+			<type>1</type>
+			<locationURI>egit-internal:///C:/Users/y.bartash/eclipse-workspace/.git/$5$WORKTREE:o7/.metadata/.plugins/org.eclipse.core.resources/.projects/SeleniumFeatures/.markers</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>
