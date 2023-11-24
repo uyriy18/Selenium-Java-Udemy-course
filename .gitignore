@@ -1,4 +1,5 @@
 *.log
+~/.metadata/ignore
 C:/Users/y.bartash/eclipse-workspace/seleniumFramework/reports/ignore
 .metadata/
 

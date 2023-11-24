@@ -10,9 +10,59 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>.settings/.gitignore</name>
+			<name>src1/.gitignore</name>
+			<type>1</type>
+			<locationURI>egit-internal:///C:/Users/y.bartash/eclipse-workspace/.git/$5$WORKTREE:o7/.gitignore</locationURI>
+		</link>
+		<link>
+			<name>src1/.project</name>
+			<type>1</type>
+			<location>C:/Users/y.bartash/eclipse-workspace/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.project</location>
+		</link>
+		<link>
+			<name>src1/.tasks.xml.zip</name>
+			<type>1</type>
+			<location>C:/Users/y.bartash/eclipse-workspace/.metadata/.mylyn/.tasks.xml.zip</location>
+		</link>
+		<link>
+			<name>src1/1193200506.index</name>
+			<type>1</type>
+			<location>C:/Users/y.bartash/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/1193200506.index</location>
+		</link>
+		<link>
+			<name>src1/1865797976.index</name>
+			<type>1</type>
+			<location>C:/Users/y.bartash/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index</location>
+		</link>
+		<link>
+			<name>src1/dialog_settings.xml</name>
+			<type>1</type>
+			<location>C:/Users/y.bartash/eclipse-workspace/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml</location>
+		</link>
+		<link>
+			<name>src1/externalLibsTimeStamps</name>
+			<type>1</type>
+			<location>C:/Users/y.bartash/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps</location>
+		</link>
+		<link>
+			<name>src1/nonChainingJarsCache</name>
+			<type>1</type>
+			<location>C:/Users/y.bartash/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache</location>
+		</link>
+		<link>
+			<name>src1/savedIndexNames.txt</name>
+			<type>1</type>
+			<locationURI>egit-internal:///C:/Users/y.bartash/eclipse-workspace/.git/$5$WORKTREE:o7/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt</locationURI>
+		</link>
+		<link>
+			<name>src2/.gitignore</name>
 			<type>1</type>
 			<location>C:/Users/y.bartash/eclipse-workspace/.gitignore</location>
+		</link>
+		<link>
+			<name>src2/.tasks.xml.zip</name>
+			<type>1</type>
+			<locationURI>egit-internal:///C:/Users/y.bartash/eclipse-workspace/.git/$5$WORKTREE:o7/.metadata/.mylyn/.tasks.xml.zip</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

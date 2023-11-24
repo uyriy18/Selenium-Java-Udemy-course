@@ -277,3 +277,39 @@ org.eclipse.jdt.core.JavaModelException: module-info.java [in <default> [in src 
 2023-11-24 17:46:55,783 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\y.bartash\eclipse-workspace\UdemyCourse\src\test\resources
 2023-11-24 17:46:56,166 [Worker-26: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: UdemyAutomationCourse:SeleniumJava:0.0.1-SNAPSHOT @ C:\Users\y.bartash\eclipse-workspace\UdemyCourse\pom.xml.
 2023-11-24 17:46:56,303 [Worker-26: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ExtendReport:Session22:0.0.1-SNAPSHOT @ C:\Users\y.bartash\eclipse-workspace\Session22\pom.xml.
+2023-11-24 18:07:07,936 [Worker-7: Executing the early startup extensions] INFO  c.b.BrowserStackPluginActivator - Starting BrowserStack Plugin...
+2023-11-24 18:07:11,976 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-24 18:07:11,977 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\y.bartash\eclipse-workspace\CrossBrowserTesting\src\main\resources
+2023-11-24 18:07:11,982 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-24 18:07:11,983 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\y.bartash\eclipse-workspace\CrossBrowserTesting\src\test\resources
+2023-11-24 18:07:12,581 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-24 18:07:12,582 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\y.bartash\eclipse-workspace\ExelDataDriven\src\main\resources
+2023-11-24 18:07:12,587 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-24 18:07:12,588 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\y.bartash\eclipse-workspace\ExelDataDriven\src\test\resources
+2023-11-24 18:07:13,240 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-24 18:07:13,241 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\y.bartash\eclipse-workspace\SeleniumFeatures\src\main\resources
+2023-11-24 18:07:13,243 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-24 18:07:13,244 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\y.bartash\eclipse-workspace\SeleniumFeatures\src\test\resources
+2023-11-24 18:07:13,408 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-24 18:07:13,410 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\y.bartash\eclipse-workspace\SeleniumFeatures2\target\classes\META-INF\maven\UdemyAutomation\SeleniumFeatures2\src\main\resources
+2023-11-24 18:07:13,411 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-24 18:07:13,412 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\y.bartash\eclipse-workspace\SeleniumFeatures2\target\classes\META-INF\maven\UdemyAutomation\SeleniumFeatures2\src\test\resources
+2023-11-24 18:07:13,803 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-24 18:07:13,803 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\y.bartash\eclipse-workspace\SeleniumFrameworkDesign\src\main\resources
+2023-11-24 18:07:13,807 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-24 18:07:13,807 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\y.bartash\eclipse-workspace\SeleniumFrameworkDesign\src\test\resources
+2023-11-24 18:07:14,665 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-24 18:07:14,665 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\y.bartash\eclipse-workspace\SeleniumJava\src\main\resources
+2023-11-24 18:07:14,668 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-24 18:07:14,670 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\y.bartash\eclipse-workspace\SeleniumJava\src\test\resources
+2023-11-24 18:07:15,022 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-24 18:07:15,022 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\y.bartash\eclipse-workspace\Session22\src\main\resources
+2023-11-24 18:07:15,025 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-24 18:07:15,025 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\y.bartash\eclipse-workspace\Session22\src\test\resources
+2023-11-24 18:07:15,640 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-24 18:07:15,641 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\y.bartash\eclipse-workspace\UdemyCourse\src\main\resources
+2023-11-24 18:07:15,644 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-24 18:07:15,644 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\y.bartash\eclipse-workspace\UdemyCourse\src\test\resources
+2023-11-24 18:07:16,801 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AutomationJava\testng-browserstack-master\src\main\resources
+2023-11-24 18:07:16,802 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\AutomationJava\testng-browserstack-master\src\test\resources
+2023-11-24 18:19:43,574 [Worker-25: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
