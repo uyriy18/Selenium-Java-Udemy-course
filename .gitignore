@@ -58,3 +58,33 @@ local.properties
 # Uncomment this line if you wish to ignore the project description file.
 # Typically, this file would be tracked if it contains build/dependency configurations:
 #.project
+
+.ant-targets*
+.classpath
+.gradle
+.idea
+*.ipr
+*.iws
+*.iml
+.project
+.settings
+/_eclipse/
+/local.properties
+build
+eclipse-build
+ivy*
+javadocs
+lib
+maven-testng-plugin-1.2.jar
+nb-configuration.xml
+out
+src/generated
+target
+test-output
+test-output-tests
+testng.iml
+z_build
+.DS_Store
+outputDir/
+**/Version.java
+**/bin/
