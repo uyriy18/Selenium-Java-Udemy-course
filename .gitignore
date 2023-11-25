@@ -88,5 +88,5 @@ z_build
 outputDir/
 **/Version.java
 **/bin/
-.reports/
+**/reports/
 
