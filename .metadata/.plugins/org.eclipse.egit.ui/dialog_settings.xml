@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\y.bartash\eclipse-workspace\.git">
+			<item value="false"/>
+			<item value="Yurii Bartash &lt;uyriy18@gmail.com&gt;"/>
+			<item value="Merge branch &apos;develop&apos; of github.com:uyriy18/Selenium-Java-Udemy-course into develop&#x0A;&#x0A;# Conflicts:&#x0A;#&#x09;.gitignore&#x0A;"/>
+			<item value="Yurii Bartash &lt;uyriy18@gmail.com&gt;"/>
+			<item value="92dda1ec61060fb53f6ded84173880428d3148b7"/>
+			<item value="0"/>
+			<item value="false"/>
+			<item value="#"/>
+		</list>
+	</section>
+</section>
