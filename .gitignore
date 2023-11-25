@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.log
 <<<<<<< HEAD
 ~/.metadata/ignore
@@ -8,3 +9,6 @@ C:/Users/y.bartash/eclipse-workspace/seleniumFramework/reports/ignore
 
 C:/Users/y.bartash/eclipse-workspace/seleniumFramework/reports
 >>>>>>> 32cec1ba9fb6969e5225071ffde8ac60e83d6dea
+=======
+C:/Users/y.bartash/eclipse-workspace/seleniumFramework/reports/ignore
+>>>>>>> 274154c8bd5d756d6fbe9657a574aaef5abee5c9

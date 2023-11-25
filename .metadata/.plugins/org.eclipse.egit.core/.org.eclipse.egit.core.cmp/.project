@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.org.eclipse.egit.core.cmp</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.settings/.gitignore</name>
+			<type>1</type>
+			<location>C:/Users/y.bartash/eclipse-workspace/.gitignore</location>
+		</link>
+	</linkedResources>
+</projectDescription>
